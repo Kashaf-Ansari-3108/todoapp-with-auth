@@ -126,10 +126,11 @@ const Signup = () => {
             </div>
 
             <input type="submit" className="btn" value="CREATE ACCOUNT" />
-          </form>
-          <h5>
+            <h5>
             Already have an account? <NavLink to="/">Login</NavLink>{" "}
           </h5>
+          </form>
+          
         </div>
       </div>
     </>

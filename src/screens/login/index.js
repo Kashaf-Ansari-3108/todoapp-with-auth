@@ -8,6 +8,7 @@ const Login = () => {
   const user = localStorage.getItem("uid");
    const navigate = useNavigate();
 
+   
    useEffect(() => {
     if (user) {
       navigate("/todo");
